@@ -1,0 +1,37 @@
+/* Font available on: https://www.1001freefonts.com/search.php?q=software&search.x=0&search.y=0 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: fit-content;
+  background-color: yellowgreen;
+  border: 4px solid gray;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 5rem;
+  font-family: "Software Tester 7", sans-serif;
+  gap: 20px;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+}
